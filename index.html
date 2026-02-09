@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BakeNBanter Studios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">BakeNBanter</div>
+    
+        <!-- Hamburger -->
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+    
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bestsellers">Bestsellers</a></li>
+            <li><a href="#gallery">Categories & More</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>BakeNBanter</h1>
+            <p>Handcrafted sweetness, baked to order.</p>
+            <a href="#contact" class="btn">Order Now</a>
+        </div>
+    </section>
+
+    <!-- BESTSELLERS -->
+    <section class="bestsellers" id="bestsellers">
+        <h2>Our Bestsellers</h2>
+
+        <div class="products">
+            <div class="card">
+                <img src="images/butterscotch_cake.png" alt="butterscotch_cake" data-title="Premium Butterscotch Cake" data-description="Fudgy, gooey, rich chocolate indulgence.">
+                <h3>Chocolate Brownie</h3>
+                <!--<p>₹60</p>-->
+            </div>
+
+            <div class="card">
+                <img src="images/cheese_balls.png" alt="cheese_balls" data-title="Corn Cheese Balls" data-description="Fudgy, gooey, rich chocolate indulgence.">
+                <h3>Jalebi Rabdi Cupcake</h3>
+                <!--<p>₹80</p>-->
+            </div>
+
+            <div class="card">
+                <img src="images/chocolate_overdose.png" alt="chocolate_overdose" data-title="Chocolate Overdose Cupcakes" data-description="Fudgy, gooey, rich chocolate indulgence.">
+                <h3>Nutella Bombolini</h3>
+                <!--<p>₹90</p>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY Categories and more -->
+    <section class="gallery" id="gallery">
+        <h2>Categories & More</h2>
+    
+        <div class="carousel-wrapper">
+            <button class="arrow left">&#10094;</button>
+            <div class="carousel">
+                <div class="carousel-item" data-category="forbidden_bites">
+                    <img src="images/teddy_cookie.png" alt="forbidden_bites" data-title="Teddy Cookies" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                    <p class="category-label">The Forbidden Bites</p>
+                </div>
+                <div class="carousel-item" data-category="artisan_celebration_cake">
+                    <img src="images/chocolate_overdose_cake.png" alt="artisan_celebration_cake" data-title="Chocolate Overdose Cake" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                    <p class="category-label">Artisan Celebration Cakes</p>
+                </div>
+                <div class="carousel-item" data-category="personalised_confections">
+                    <img src="images/cricket_cookies.png" alt="personalised_confections" data-title="Customized IPL Cookies" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                    <p class="category-label">Personalised Confections</p>
+                </div>
+                <div class="carousel-item" data-category="the_petit_collection">
+                    <img src="images/dbc_cupcake.png" alt="the_petit_collection" data-title="Chocolate Truffle Cupcakes" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                    <p class="category-label">The Petit Collection</p>
+                </div>
+                <div class="carousel-item" data-category="the_anonymous_savoury_edit">
+                    <img src="images/cheese_balls.png" alt="the_anonymous_savoury_edit" data-title="Corn Cheese Balls" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                    <p class="category-label">The Anonymous Savoury Edit</p>
+                </div>
+                <div class="carousel-item" data-category="the_conscious_collection">
+                    <img src="images/oat_cookie.png" alt="oat_cookie" data-title="Chocochip Oat Cookies" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                    <p class="category-label">The Consious Collection</p>
+                </div>
+                <div class="carousel-item" data-category="the_fudge_affair">
+                    <img src="images/teddy_cookie.png" alt="the_fudge_affair" data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                    <p class="category-label">The Fudge Affair</p>
+                </div>
+                <div class="carousel-item" data-category="the_bombolini_bar">
+                    <img src="images/teddy_cookie.png" alt="the_bombolini_bar" data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                    <p class="category-label">The Bombolini Bar </p>
+                </div>
+                <!-- <img src="images/teddy_cookie.png" alt="forbidden_bites image" data-category="forbidden_bites" data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                <img src="images/chocolate_cake.jpeg" alt="artisan_celebration_cake" data-category="artisan_celebration_cake"  data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                <img src="images/cricket_cookies.png" alt="personalised_confections" data-category="personalised_confections"  data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                <img src="images/dbc_cupcake.png" alt="the_petit_collection" data-category="the_petit_collection"  data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                <img src="images/chocolate_cake.jpeg" alt="the_anonymous_savoury_edit" data-category="the_anonymous_savoury_edit"  data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                <img src="images/karachi_cookies.jpeg" alt="the_conscious_collection" data-category="the_conscious_collection"  data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                <img src="images/butterscotch_cake.png" alt="the_fudge_affair" data-category="the_fudge_affair"  data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love.">
+                <img src="images/stick_cookies.jpeg" alt="the_bombolini_bar" data-category="the_bombolini_bar"  data-title="Chocolate Brownie" data-description="Rich, gooey, and baked fresh with premium cocoa and lots of love."> -->
+            </div> 
+    
+            <button class="arrow right">&#10095;</button>
+        </div>
+    
+        <!-- DOTS -->
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- IMAGE MODAL -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-gallery">
+                <button class="modal-arrow left">&#10094;</button>
+                <img id="modalImg" src="" alt="">
+                <button class="modal-arrow right">&#10095;</button>
+            </div>            
+            <h3 id="modalTitle"></h3>
+            <p id="modalDesc"></p>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>
+            What started as late-night baking experiments slowly turned into
+            Frosting Fever — a home bakery built on love, quality ingredients,
+            and the joy of sharing sweetness.
+        </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Craving something sweet?</h2>
+        <a href="#" class="btn">Order on WhatsApp</a>
+    </section>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
