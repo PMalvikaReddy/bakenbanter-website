@@ -27,7 +27,7 @@ bestsellerImages.forEach(img => {
 
 // modal scrolling images
 const categories = {
-    forbidden_bites: {
+    the_forbidden_cookie_series: {
         images: [
             "images/teddy_cookie.png",
             "images/nankatai_cookies.png",
@@ -42,9 +42,9 @@ const categories = {
             "Chocolate Crunch Stick Cookies [Dark/ White/ Pineapple/ Mango]",
             "Karachi Cookies"
         ],
-        description: "Rich, gooey and baked fresh with premium cocoa."
+        description: "A perfect bite- the perfect crunch, the perfect softness. Each cookie is designed to melt, linger, and satisfy midnight cravings in the most indulgent way."
     },
-    artisan_celebration_cake: {
+    the_layered_luxe_collection: {
         images: [
             "images/chocolate_overdose_cake.png",
             "images/chocolate_cake.jpeg",
@@ -56,21 +56,21 @@ const categories = {
             "Chocolate Overdose",
             "Nutella Chocolate",
             "Hazelnut Nutella Mousse",
-            "Premium Butterscotch",
+            "Salted Caramel and Butterscotch",
             "Dutch Chocolate Truffle"
         ],
-        description: "Soft, fluffy and topped with silky frosting."
+        description: "Deep. Thick layers. Lavish fillings.\n Our cakes are designed around the centre — where silky ganache flows, caramel melts, Nutella folds into sponge\n Crafted for those who crave depth."
     },
-    personalised_confections: {
+    the_customized_series: {
         images: [
             "images/cricket_cookies.png",
         ],
         titles: [
             "Customized IPL Cookies"
         ],
-        description: "Soft, fluffy and topped with silky frosting."
+        description: "Custom-made, hand-finished. cookies designed around your theme, colours, and occasion — made to stand out and be remembered."
     },
-    the_petit_collection: {
+    the_hidden_core_collection: {
         images: [
             "images/dbc_cupcake.png",
             "images/butterscotch_cupcake.png",
@@ -79,22 +79,22 @@ const categories = {
         ],
         titles: [
             "Chocolate Truffle",
-            "Butterscotch",
+            "Salted Caramel and Butterscotch",
             "Chocolate Overdose Cupcake",
             "mango Cupcake"
         ],
-        description: "Soft, fluffy and topped with silky frosting."
+        description: "Soft, cloud-like sponges hiding a lavish centre of flowing ganache, silky caramel, or velvety cream. Decadent inside and out — crafted for those who crave more than just frosting."
     },
     the_anonymous_savoury_edit: {
         images: [
-            "images/cheese_balls.png",
-            "images/veg_strips.png"
+            "images/veg_strips.png",
+            "images/cheese_balls.png"
         ],
         titles: [
-            "Corn Cheese Balls",
-            "Veg Strips"
+            "Veg Strips",
+            "Corn Cheese Balls"
         ],
-        description: "Soft, fluffy and topped with silky frosting."
+        description: "Golden Crunch. Gourmet Comfort.\n Handcrafted for that irresistible crunch — indulgent, comforting, and made for sharing."
     },
     the_conscious_collection: {
         images: [
@@ -107,7 +107,7 @@ const categories = {
         ],
         description: "Soft, fluffy and topped with silky frosting."
     },
-    the_fudge_affair: {
+    the_fudgy_collection: {
         images: [
             "images/cupcake1.jpg",
             "images/cupcake2.jpg"
@@ -116,7 +116,7 @@ const categories = {
             "Vanilla Buttercream",
             "Chocolate Truffle Cupcake"
         ],
-        description: "Soft, fluffy and topped with silky frosting."
+        description: "Dense. Gooey. Deeply chocolate. \n Thick, intense, and baked for those who crave true chocolate depth."
     },
     the_bombolini_bar: {
         images: [
