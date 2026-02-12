@@ -50,7 +50,8 @@ const categories = {
             "images/chocolate_cake.jpeg",
             "images/nutella_cake.jpeg",
             "images/butterscotch_cake.png",
-            "images/chocolate_cake2.png"
+            "images/chocolate_cake2.png",
+            "images/jelabi_rabdi_cake.png"
         ],
         titles: [
             "Chocolate Overdose",
@@ -81,7 +82,7 @@ const categories = {
             "Chocolate Truffle",
             "Salted Caramel and Butterscotch",
             "Chocolate Overdose Cupcake",
-            "mango Cupcake"
+            "Tropical sMango Cupcake"
         ],
         description: "Soft, cloud-like sponges hiding a lavish centre of flowing ganache, silky caramel, or velvety cream. Decadent inside and out — crafted for those who crave more than just frosting."
     },
@@ -96,6 +97,17 @@ const categories = {
         ],
         description: "Golden Crunch. Gourmet Comfort.\n Handcrafted for that irresistible crunch — indulgent, comforting, and made for sharing."
     },
+    the_fudgy_collection: {
+        images: [
+            "images/fudgy_brownie.png",
+            "images/almond_brownie.png"
+        ],
+        titles: [
+            "The Mixed Fudge Collection [Double Chocolate/ Almond/ Hazelnut Nutella]",
+            "Almond Fudgy Brownie Bites"
+        ],
+        description: "Dense. Gooey. Deeply chocolate. \n Thick, intense, and baked for those who crave true chocolate depth."
+    },
     the_conscious_collection: {
         images: [
             "images/oat_cookie.png",
@@ -106,17 +118,6 @@ const categories = {
             "Chocolate Truffle Cupcake"
         ],
         description: "Soft, fluffy and topped with silky frosting."
-    },
-    the_fudgy_collection: {
-        images: [
-            "images/cupcake1.jpg",
-            "images/cupcake2.jpg"
-        ],
-        titles: [
-            "Vanilla Buttercream",
-            "Chocolate Truffle Cupcake"
-        ],
-        description: "Dense. Gooey. Deeply chocolate. \n Thick, intense, and baked for those who crave true chocolate depth."
     },
     the_bombolini_bar: {
         images: [
@@ -253,3 +254,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+// about letter
+window.addEventListener("scroll", () => {
+    const letter = document.querySelector(".letter");
+    const letterTop = letter.getBoundingClientRect().top;
+
+    if (letterTop < window.innerHeight - 100) {
+        letter.classList.add("show");
+    }
+});
+
